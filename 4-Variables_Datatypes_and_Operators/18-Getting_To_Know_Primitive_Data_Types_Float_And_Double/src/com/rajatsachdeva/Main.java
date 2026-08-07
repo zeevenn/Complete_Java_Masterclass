@@ -46,7 +46,6 @@ public class Main {
         System.out.println("myFloatValue = " + myFloatValue);
         System.out.println("myDoubleValue = " + myDoubleValue);
 
-
         /* Challenge */
         /* Convert a given number of pounds to Kilograms
         *  1. Create a variable to store the number of pounds
@@ -57,7 +56,7 @@ public class Main {
         */
 
         double myPounds = 200d;
-        double mykg = myPounds * 0.45359237d;   // 90.7185
+        double mykg = myPounds * 0.45359237d; // 90.7185
         System.out.println("Pounds = " + myPounds + "\nkilograms = " + mykg);
 
         // pi value

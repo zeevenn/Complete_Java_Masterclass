@@ -1,21 +1,21 @@
 # Primitive Data Types
+
 > The Java programming language is statically-typed, which means that all variables must first be declared before they can be used. This involves stating the variable's type and name: <br />
 > `int gear = 1;`
 
 ## Numeric Primitive Data Types
+
 > All types are singed <br />
 > Ranges are defined using following: <br />
-`-2^(n-1) to (2^(n-1))-1` <br />
->, here n is number of bits used to store data type variable
+> `-2^(n-1) to (2^(n-1))-1` <br />
+> , here n is number of bits used to store data type variable
 
-
-|   Type	  |  Bytes(bits n)	|	Range  	    |
-|-----------|-----------------|-------------|
-|	byte	    |	1 (8)		        |   -128 to 127 |
-|	short	    |	2 (16)	 	      |   -32768 to 32767|
-|	int		    |	4 (32)		      |   -214783648 to 214783647 |
-|	long	    |	8 (64)	 	      |    -(2^63) to (2^63)-1|
-
+| Type  | Bytes(bits n) | Range                   |
+| ----- | ------------- | ----------------------- |
+| byte  | 1 (8)         | -128 to 127             |
+| short | 2 (16)        | -32768 to 32767         |
+| int   | 4 (32)        | -214783648 to 214783647 |
+| long  | 8 (64)        | -(2^63) to (2^63)-1     |
 
 1. **byte**: The byte data type is an 8-bit signed [two's complement](https://en.wikipedia.org/wiki/Two%27s_complement) integer. It has a minimum value of -128 and a maximum value of 127 (inclusive). The byte data type can be useful for saving memory in large arrays, where the memory savings actually matters. They can also be used in place of int where their limits help to clarify your code; the fact that a variable's range is limited can serve as a form of documentation.
 

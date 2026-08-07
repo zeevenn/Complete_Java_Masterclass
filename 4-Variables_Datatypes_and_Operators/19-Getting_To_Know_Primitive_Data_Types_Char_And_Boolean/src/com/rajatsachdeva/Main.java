@@ -7,7 +7,7 @@ public class Main {
         //  assign unicode value to char
         //  https://unicode-table.com/en/
         //  this value is copyright symbol
-	    char myChar = '\u00A9';
+        char myChar = '\u00A9';
         System.out.println("Unicode output was: " + myChar);
 
         // width of char is 2 bytes (16 Bytes)
