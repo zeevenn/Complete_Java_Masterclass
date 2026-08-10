@@ -68,21 +68,21 @@ public class Main {
 
         topScore = 80;
         int secondTopScore = 60;
-        if( (topScore > secondTopScore) && (topScore < 100))
+        if ((topScore > secondTopScore) && (topScore < 100))
             System.out.println("Greater than second top score and less than 100");
 
         if ((topScore > 90) || (topScore < 100))
             System.out.println("One of these tests is true");
 
         int newValue = 50;
-        if(newValue == 50)
+        if (newValue == 50)
             System.out.println("This is true");
 
         // boolean case
         boolean isCar = false;
         // there is no error here, boolean assignment results in true
         // so need to care while using == operator
-        if(isCar = true)
+        if (isCar = true)
             System.out.println("This should not happen");
 
         // Ternary operator
@@ -90,7 +90,8 @@ public class Main {
         System.out.println("wasCar = " + wasCar);
 
         // Challenge
-        /* 1. Create a double variable with the value 20
+        /*
+         * 1. Create a double variable with the value 20
          * 2. Create a second variable of type double with value 80
          * 3. Add both numbers up and multiply by 25
          * 4. Use the remainder operator to figure out the remainder from the
@@ -101,12 +102,10 @@ public class Main {
 
         double firstDouble = 20d;
         double secondDouble = 80d;
-        double resultDouble = ((firstDouble + secondDouble) * 25) % 40 ;
+        double resultDouble = ((firstDouble + secondDouble) * 25) % 40;
 
         if (resultDouble <= 20)
             System.out.println("Total was over the limit");
-
-
 
     }
 }
