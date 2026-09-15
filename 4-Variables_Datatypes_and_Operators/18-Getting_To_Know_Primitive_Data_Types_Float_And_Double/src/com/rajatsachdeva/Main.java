@@ -6,8 +6,6 @@
 
 package com.rajatsachdeva;
 
-import com.sun.tools.javac.util.Convert;
-
 public class Main {
 
     public static void main(String[] args) {
